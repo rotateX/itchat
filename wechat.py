@@ -51,4 +51,4 @@ text = "".join(siglist)
 wordlist = jieba.cut(text, cut_all=True)
 word_space_split = ' '.join(wordlist)
 
-# wordimage()
+wordimage(word_space_split)
