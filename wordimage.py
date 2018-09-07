@@ -4,7 +4,7 @@ import PIL.Image as Image
 import matplotlib.pyplot as plt
 
 def wordimage(word_space_split):
-    coloring = np.array(Image.open('E:\pythontest\itchat\image.jpg'))
+    coloring = np.array(Image.open('E:\pythontest\itchat\zzicon.png'))
     my_wordcloud = WordCloud(
         background_color='white',
         max_words=2000,
